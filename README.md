@@ -6,23 +6,23 @@
 #### if/else expert rules. It's a minimal, transparent example of "building your
 #### own AI" with gradient descent.
 
-###### Quick start
+##### Quick start
 -----------
-###### 1) Put some plain text into a file named `data.txt` in the same folder.
+##### 1) Put some plain text into a file named `data.txt` in the same folder.
    More data => better results. A few hundred KB is a nice start.
 
-###### 2) Install deps (Python 3.9+ recommended):
+##### 2) Install deps (Python 3.9+ recommended):
    pip install torch --index-url https://download.pytorch.org/whl/cpu
-   # Or your CUDA wheel if you have a GPU
+    Or your CUDA wheel if you have a GPU
 
-###### 3) Train for a few minutes:
+##### 3) Train for a few minutes:
    python tiny_transformer_textgen.py --epochs 5 --device auto
 
-###### 4) Generate text:
+##### 4) Generate text:
   python tiny_transformer_textgen.py --gen-only --generate "Once upon a time" --max-new-tokens 200
 
 
-###### Notes
+##### Notes
 -----
 - This is purposely tiny to keep it readable. Scale dims/layers and train
   longer for better quality.
@@ -38,7 +38,7 @@ Try creating your own data file
 ###### If hard, run the create_data.py script
 ###### It will auto generate files for you
 
-## Made by ❤️ Sohan Shaw ❤️, Pro-Coding Backend 💕😊
+### Made by ❤️ Sohan Shaw ❤️, Pro-Coding Backend 💕😊
 
 ### Give Proper Credits if uploaded on a social media platform ©️ Sohan Shaw
 
